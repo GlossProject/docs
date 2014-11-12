@@ -26,27 +26,32 @@ Gloss relies on a technique called "Content Assignment", this makes it possible 
 assign headers, footers, menus and other components to elements of a template, simply by assigning special
 classes to elements of their template.
 
-.. image:: gloss-the-big-idea-small.png
 
 
-Layout and Content Assignment
+The Process
 --------------------------------
 
-The general workflow roughly looks like this:
+The general day to day workflow roughly looks like this:
+
+.. image:: gloss-the-big-idea-small.png
+
 
 1. Layout and Content Assignment
 ````````````````````````````````
 
-Start with an html layout, use a tool that produces well structured html code (preferably responsive).
+Start with an html layout, we'll assume that you spent time on each pixel and css rule to handcraft the most
+beautiful, preferably responsive, layout. Or you use a tool that produces well structured html code (preferably responsive).
 
 .. image:: gloss-site-before-gloss.png
 
-Add the special gl classes
+To your code you add the special Gloss class (we call them gl classes).
 
 .. image:: gloss-site-with-gloss-classes.png
 
 2. Publish
 ````````````````````````````````
+
+Then you publish or upload your changes.
 
 As much as possible Gloss does the rest for you. We're working to ensure that Gloss allows you to stay focused
 on visual and interaction design. To this end we will introduce new features based on feedback that make
