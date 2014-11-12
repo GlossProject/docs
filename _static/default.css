@@ -157,6 +157,7 @@ div.body h3 { font-size: 140%; }
 div.body h4 { font-size: 120%; }
 div.body h5 { font-size: 110%; }
 div.body h6 { font-size: 100%; }
+div.body dt { font-weight:bold; }
 
 a.headerlink {
     color: #c60f0f;

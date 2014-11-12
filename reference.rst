@@ -9,51 +9,120 @@
 Reference
 =========================================
 
-Gloss is a new web design process, primarily aimed at creating happy design teams. 
-If you're interested in building content driven sites in less time, Gloss may be a
-good fit. If you have an opinionated team that think they've figured it all out then
-there's nothing to see here, just move on.
+The is the reference page for the Gloss web design process.
 
-Gloss in a Nutshell
+Gloss classes
 ---------------------
 
-Gloss relies on a technique called "Content Assignment", this makes it possible for a designer to 
-assign headers, footers, menus and other components to elements of a template, simply by assigning special
-classes to elements of their template.
 
-.. image:: gloss-the-big-idea-small.png
+Core Classes
+``````````````````````````````````````
+
+Add these classes to your elements in the webflow interface. 
+
+<a>gl-logo
+	(must be placed on a <a> tag, this is to preserve home link)
+
+<nav>gl-menu
+	(must be placed on a <nav> tag) marks the menu for replacement with the site's menu
+
+gl-menu-link
+	add style to individual menu items, very important if you want to control styles in your menu items.
+
+gl-edit-bar
+	adds an edit bar
+
+gl-content
+	assigns the site content
+
+gl-content-body
+	assigns ONLY the body of the content
+
+gl-content-byline
+	assigns ONLY the content byline
+
+gl-content-description
+	assigns ONLY the content description
+
+gl-content-title
+	assigns ONLY the content title
+
+gl-footer
+	assigns the footer
+
+gl-below-content
+	place additional content below the content
 
 
-Layout and Content Assignment
---------------------------------
+Drop Classes
+``````````````````````````````````````
 
-The general workflow roughly looks like this:
+Use drop classes to remove unwanted elements
 
-1. Start with a well structured html layout (preferably responsive).
+gl-drop
+	drop elements marked with this class
 
-.. image:: gloss-site-before-gloss.png
+gl-front-drop
+	drop elements marked with this class if they are on the front-page
 
-2. Add the special gl classes
+gl-inner-drop
+	drop elements marked with this class if they are on an inner page.
 
-.. image:: gloss-site-with-gloss-classes.png
+Column and Side Bar Layout Classes
+``````````````````````````````````````
 
-3. Publish
+Control dynamic site layout using the layout classes. It is for achieving layouts like:
 
-As much as possible Gloss does the rest for you. We push Gloss to it's limits, so that
-you can stay focused on design.
+gl-one-column-layout
+	assign a content area that will (only be visible when there are no columns.)
 
-Contents:
+gl-two-column-layout gl-right-column
+	right column based layout
+
+gl-two-column-layout gl-left-column
+	left column based layout
+
+gl-three-column-layout
+	a layout containing a left and right column
+
+(gl-two-column-layout | gl-three-column) gl-first-column
+	used to assign which column is the first column in a two or three column layout
+
+(gl-two-column-layout | gl-three-column) gl-second-column
+	used to assign which column is the second column in a two or three column layout
 
 
-.. toctree::
-   :maxdepth: 2
+Button and List Classes
+``````````````````````````
 
+These classes make it possible to style system buttons
 
+gl-button
+	a global that all buttons get  (they also get a bootstrap 3 .btn)
 
-Indices and tables
-==================
+gl-hot-button
+	a hot button, style it how you like and it will get that style wherever hot buttons show up in your site. (also includes a bootstrap 3 .btn-danger)
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+gl-cool-button
+	a cool button, style it how you like and it will get that style wherever cool buttons show up in your site. (also includes a bootstrap 3 .btn-primary)
+
+gl-cooler-button
+	a cooler button  (also includes a bootstrap 3 .btn-info)
+
+gl-default-button
+	a default style applied to all other buttons
+        (also includes a bootstrap 3 .btn-default)
+
+gl-ul
+	Used for styling unordered lists
+
+gl-ol
+	Used for styling ordered lists
+
+gl-ul-li
+	Used for styling unordered list items
+
+gl-ol-li
+	Used for styling ordered list items
+
 
