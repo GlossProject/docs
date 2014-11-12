@@ -5,6 +5,7 @@
 
 .. image:: gloss-logo-medium.png
 
+
 The Gloss Project
 =========================================
 
