@@ -13,6 +13,12 @@ If you're interested in building content driven sites in less time, Gloss may be
 good fit. If you have an opinionated team that think they've figured it all out then
 there's nothing to see here, just move on.
 
+Show me the Docs
+------------------
+If you want to dive straight into the documentation follow the link below:
+
+ :doc:`Documentation </documentation>`
+
 Gloss in a Nutshell
 ---------------------
 
@@ -41,8 +47,3 @@ The general workflow roughly looks like this:
 As much as possible Gloss does the rest for you. We push Gloss to it's limits, so that
 you can stay focused on design.
 
-Want more Docs?
-------------------
-Follow the link below:
-
- :doc:`toc </toc>`
