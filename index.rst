@@ -9,8 +9,13 @@ The Gloss Project
 =========================================
 
 Gloss is a new web design process, primarily aimed at creating happy design teams. 
-If you're interested in building content driven sites in less time, Gloss may be a
-good fit. If you have an opinionated team that think they've figured it all out then
+
+We're working to ensure that Gloss allows you to stay focused
+on visual and interaction design. To this end we will introduce new features based on feedback that make
+this increasingly possible.
+
+If you're interested in building complex (and not so complex) content driven sites in less time, Gloss may be a
+good fit. If you have an opinionated team that think they've figured it all out and everything is working for you already, then
 there's nothing to see here, just move on.
 
 Show me the Docs
@@ -53,6 +58,5 @@ To your code you add the special Gloss class (we call them gl classes).
 
 Then you publish or upload your changes.
 
-As much as possible Gloss does the rest for you. We're working to ensure that Gloss allows you to stay focused
-on visual and interaction design. To this end we will introduce new features based on feedback that make
-this increasingly possible.
+As much as possible Gloss does the rest for you. 
+
