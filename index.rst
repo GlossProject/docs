@@ -17,7 +17,7 @@ Show me the Docs
 ------------------
 If you want to dive straight into the documentation follow the link below:
 
- :doc:`Documentation </documentation>`
+ :ref:`Documentation </documentation>`
 
 Gloss in a Nutshell
 ---------------------
@@ -34,16 +34,20 @@ Layout and Content Assignment
 
 The general workflow roughly looks like this:
 
-1. Start with a well structured html layout (preferably responsive).
+1. Layout and Content Assignment
+````````````````````````````````
+
+Start with an html layout, use a tool that produces well structured html code (preferably responsive).
 
 .. image:: gloss-site-before-gloss.png
 
-2. Add the special gl classes
+Add the special gl classes
 
 .. image:: gloss-site-with-gloss-classes.png
 
-3. Publish
+2. Publish
+````````````````````````````````
 
-As much as possible Gloss does the rest for you. We push Gloss to it's limits, so that
-you can stay focused on design.
-
+As much as possible Gloss does the rest for you. We're working to ensure that Gloss allows you to stay focused
+on visual and interaction design. To this end we will introduce new features based on feedback that make
+this increasingly possible.
