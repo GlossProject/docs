@@ -45,4 +45,4 @@ Want more Docs?
 ------------------
 Follow the link below:
 
- :ref:`toc`
+ :doc:`toc </toc>`

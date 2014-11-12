@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. image:: gloss-logo-medium.png
+.. image:: gloss-logo.png
 
 
-The Gloss Project
+Reference
 =========================================
 
 Gloss is a new web design process, primarily aimed at creating happy design teams. 
