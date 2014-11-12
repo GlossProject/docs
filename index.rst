@@ -41,18 +41,8 @@ The general workflow roughly looks like this:
 As much as possible Gloss does the rest for you. We push Gloss to it's limits, so that
 you can stay focused on design.
 
-Contents:
+Want more Docs?
+------------------
+Follow the link below:
 
-
-.. toctree::
-   :maxdepth: 2
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+ :ref:`toc`
