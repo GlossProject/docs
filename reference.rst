@@ -18,7 +18,8 @@ Gloss classes
 Core Classes
 ``````````````````````````````````````
 
-Add these classes to your elements in the webflow interface. 
+Adding these classes to your html elements will allow Gloss to dynamically
+transform your HTML
 
 .. list-table::
    :widths: 40 60 
