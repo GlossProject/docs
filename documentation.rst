@@ -3,7 +3,7 @@
 .. image:: gloss-logo-medium.png
 
 
-Table of Contents
+Documentation
 =========================================
 
 Gloss is a new web design process, primarily aimed at creating happy design teams. 
@@ -19,15 +19,9 @@ Contents:
 
    installation
    tutorial
-   reference
    examples
+   reference
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 

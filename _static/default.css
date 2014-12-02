@@ -16,14 +16,14 @@
 body {
     font-family: 'Source Sans Pro',sans-serif;
     STROKE: 100%;
-    background-color: #ADA1A2;
+    background-color: #edc951 /*#ADA1A2*/;
     color: #000;
     margin: 0;
     padding: 0;
 }
 
 div.document {
-    background-color: #C7BFBF;
+    background-color: #edc951 /*#C7BFBF */;
 }
 
 div.documentwrapper {
@@ -114,7 +114,11 @@ div.sphinxsidebar input {
     font-size: 1em;
 }
 
+/* -- navbar at top and bottom ---------------------------------------------- */
 
+.related ul {
+    background: #c00606;
+}
 
 /* -- hyperlink styles ------------------------------------------------------ */
 
@@ -135,7 +139,10 @@ a:hover {
 
 
 /* -- body styles ----------------------------------------------------------- */
-
+div.body {
+    font-family: 'Source Sans Pro','Trebuchet MS', sans-serif;
+    color: #5A5252;
+}
 div.body h1,
 div.body h2,
 div.body h3,
@@ -145,7 +152,7 @@ div.body h6 {
     font-family: 'Source Sans Pro','Trebuchet MS', sans-serif;
     background-color: transparent;
     font-weight: normal;
-    color: #745B5C;
+    color: #5A5252;
     border-bottom: 1px solid #ccc;
     margin: 20px -20px 10px -20px;
     padding: 3px 0 3px 10px;
@@ -236,7 +243,14 @@ tt {
 }
 
 th {
-    background-color: #ede;
+    background-color: #FFFBEC;
+}
+table.docutils td, table.docutils th {
+padding: 10px 9px 10px 5px;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 1px solid #F6F1F1;
 }
 
 .warning tt {
