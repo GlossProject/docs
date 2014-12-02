@@ -22,7 +22,7 @@ Show me the Docs
 ------------------
 If you want to dive straight into the documentation follow the link below:
 
- :ref:`Documentation </documentation>`
+ :ref:`Documentation`
 
 Gloss in a Nutshell
 ---------------------
