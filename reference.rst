@@ -76,6 +76,8 @@ Control dynamic site layout using the layout classes. It is for achieving layout
    :widths: 20 80
    :header-rows: 1
 
+    * - Class
+      - Description
     * - gl-one-column-layout
       - assign a content area that will (only be visible when there are no columns.)
     * - gl-two-column-layout gl-right-column
@@ -98,6 +100,8 @@ These classes make it possible to style system buttons
    :widths: 20 80
    :header-rows: 1
 
+    * - Class
+      - Description
     * - gl-button
       - a global that all buttons get  (they also get a bootstrap 3 .btn)
     * - gl-hot-button
@@ -107,8 +111,7 @@ These classes make it possible to style system buttons
     * - gl-cooler-button
       - a cooler button  (also includes a bootstrap 3 .btn-info)
     * - gl-default-button
-      - a default style applied to all other buttons
-        (also includes a bootstrap 3 .btn-default)
+      - a default style applied to all other buttons (also includes a bootstrap 3 .btn-default)
     * - gl-ul
       - Used for styling unordered lists
     * - gl-ol
