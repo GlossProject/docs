@@ -61,5 +61,5 @@ To your code you add the special Gloss class (we call them gl classes).
 
 Then you publish or upload your changes.
 
-As much as possible Gloss does the rest for you. 
+As much as possible, Gloss does the rest for you. 
 

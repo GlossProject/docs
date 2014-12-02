@@ -17,10 +17,10 @@ Contents:
 .. toctree::
    :maxdepth: 1
 
-   quick-start
+   installation
    tutorial
    reference
-   faq
+   examples
 
 
 
