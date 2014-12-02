@@ -22,7 +22,10 @@ Show me the Docs
 ------------------
 If you want to dive straight into the documentation follow the link below:
 
-:ref:`documentation`
+.. toctree::
+   :hidden::
+   
+   documentation
 
 Gloss in a Nutshell
 ---------------------
