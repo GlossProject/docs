@@ -23,7 +23,7 @@ Show me the Docs
 If you want to dive straight into the documentation follow the link below:
 
 .. toctree::
-   :maxdepth: 1
+   :hidden::
    
    documentation
 

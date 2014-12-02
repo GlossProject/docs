@@ -21,7 +21,7 @@ Core Classes
 Add these classes to your elements in the webflow interface. 
 
 .. list-table::
-   :widths: 20 80
+   :widths: 40 60 
    :header-rows: 1
 
    * - Class
@@ -55,7 +55,7 @@ Drop Classes
 Use drop classes to remove unwanted elements
 
 .. list-table::
-   :widths: 20 80
+   :widths: 40 60 
    :header-rows: 1
 
    * - Class
@@ -73,7 +73,7 @@ Column and Side Bar Layout Classes
 Control dynamic site layout using the layout classes. It is for achieving layouts like:
 
 .. list-table::
-   :widths: 20 80
+   :widths: 40 60 
    :header-rows: 1
 
    * - Class
@@ -97,7 +97,7 @@ Button and List Classes
 These classes make it possible to style system buttons
 
 .. list-table::
-   :widths: 20 80
+   :widths: 40 60 
    :header-rows: 1
 
    * - Class
