@@ -76,20 +76,20 @@ Control dynamic site layout using the layout classes. It is for achieving layout
    :widths: 20 80
    :header-rows: 1
 
-    * - Class
-      - Description
-    * - gl-one-column-layout
-      - assign a content area that will (only be visible when there are no columns.)
-    * - gl-two-column-layout gl-right-column
-      - right column based layout
-    * - gl-two-column-layout gl-left-column
-      - left column based layout
-    * - gl-three-column-layout
-      - a layout containing a left and right column
-    * - (gl-two-column-layout | gl-three-column) gl-first-column
-      - used to assign which column is the first column in a two or three column layout
-    * - (gl-two-column-layout | gl-three-column) gl-second-column
-      - used to assign which column is the second column in a two or three column layout
+   * - Class
+     - Description
+   * - gl-one-column-layout
+     - assign a content area that will (only be visible when there are no columns.)
+   * - gl-two-column-layout gl-right-column
+     - right column based layout
+   * - gl-two-column-layout gl-left-column
+     - left column based layout
+   * - gl-three-column-layout
+     - a layout containing a left and right column
+   * - (gl-two-column-layout | gl-three-column) gl-first-column
+     - used to assign which column is the first column in a two or three column layout
+   * - (gl-two-column-layout | gl-three-column) gl-second-column
+     - used to assign which column is the second column in a two or three column layout
 
 Button and List Classes
 ``````````````````````````
@@ -100,23 +100,23 @@ These classes make it possible to style system buttons
    :widths: 20 80
    :header-rows: 1
 
-    * - Class
-      - Description
-    * - gl-button
-      - a global that all buttons get  (they also get a bootstrap 3 .btn)
-    * - gl-hot-button
-      - a hot button, style it how you like and it will get that style wherever hot buttons show up in your site. (also includes a bootstrap 3 .btn-danger)
-    * - gl-cool-button
-      - a cool button, style it how you like and it will get that style wherever cool buttons show up in your site. (also includes a bootstrap 3 .btn-primary)
-    * - gl-cooler-button
-      - a cooler button  (also includes a bootstrap 3 .btn-info)
-    * - gl-default-button
-      - a default style applied to all other buttons (also includes a bootstrap 3 .btn-default)
-    * - gl-ul
-      - Used for styling unordered lists
-    * - gl-ol
-      - Used for styling ordered lists
-    * - gl-ul-li
-      - Used for styling unordered list items
-    * - gl-ol-li
-      - Used for styling ordered list items
+   * - Class
+     - Description
+   * - gl-button
+     - a global that all buttons get  (they also get a bootstrap 3 .btn)
+   * - gl-hot-button
+     - a hot button, style it how you like and it will get that style wherever hot buttons show up in your site. (also includes a bootstrap 3 .btn-danger)
+   * - gl-cool-button
+     - a cool button, style it how you like and it will get that style wherever cool buttons show up in your site. (also includes a bootstrap 3 .btn-primary)
+   * - gl-cooler-button
+     - a cooler button  (also includes a bootstrap 3 .btn-info)
+   * - gl-default-button
+     - a default style applied to all other buttons (also includes a bootstrap 3 .btn-default)
+   * - gl-ul
+     - Used for styling unordered lists
+   * - gl-ol
+     - Used for styling ordered lists
+   * - gl-ul-li
+     - Used for styling unordered list items
+   * - gl-ol-li
+     - Used for styling ordered list items
