@@ -26,6 +26,7 @@ If you want to dive straight into the documentation follow the link below:
    :hidden::
    
    documentation
+   download
 
 Gloss in a Nutshell
 ---------------------
