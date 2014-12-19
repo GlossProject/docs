@@ -9,7 +9,7 @@
 Reference
 =========================================
 
-Start here for an explanation of the all available Gloss (gl-) classes.
+Start here for an explanation of the available Gloss (gl-) classes.
 
 Gloss classes
 ---------------------
