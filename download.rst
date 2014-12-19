@@ -6,9 +6,13 @@
 .. image:: gloss-logo.png
 
 
-Installation
+Download
 =========================================
 
-Placeholder for the installation instructions
+Download the latest version from here:
+(currently only Plone compatible)
 
-Installation goes here
+https://github.com/GlossProject/gloss.theme/releases
+
+
+
