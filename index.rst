@@ -11,8 +11,8 @@ The Gloss Project
 Gloss is a new web design process, primarily aimed at creating happy design teams. 
 
 We're working to ensure that Gloss allows you to stay focused
-on visual and interaction design. To this end we will introduce new features based on feedback that make
-this increasingly possible.
+on visual and interaction design. To this end we will introduce features that help this goal and remove features
+antagonistic to this goal.
 
 If you're interested in building complex (and not so complex) content driven sites in less time, Gloss may be a
 good fit. If you have an opinionated team that think they've figured it all out and everything is working for you already, then
