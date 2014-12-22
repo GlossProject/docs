@@ -33,6 +33,8 @@ transform your HTML
      - Marks the menu for dynamic replacement with the content site's menu (must be placed on a <nav> tag) 
    * - **gl-menu-link**
      - Adds style to individual menu items, very important if you want to control styles in your menu items.
+   * - **gl-breadcrumbs**
+     - Adds breadcrumbs to an element
    * - **gl-edit-bar**
      - Adds an edit bar
    * - **gl-content**
