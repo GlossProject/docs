@@ -69,6 +69,12 @@ Use drop classes to remove unwanted elements
      - drop elements marked with this class if they are on the front-page
    * - **gl-inner-drop**
      - drop elements marked with this class if they are on an inner page.
+   * - **gl-not-authenticated-drop**
+     - drop elements marked with this class if the visitor is not authenticated.
+   * - **gl-not-admin-drop**
+     - drop elements marked with this class if the visitor is not an administrator in the context.
+
+
 
 Column and Side Bar Layout Classes
 ``````````````````````````````````````
