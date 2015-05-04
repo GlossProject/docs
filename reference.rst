@@ -35,6 +35,8 @@ transform your HTML
      - Adds style to individual menu items, very important if you want to control styles in your menu items.
    * - **gl-breadcrumbs**
      - Adds breadcrumbs to an element
+   * - **gl-user-menu**
+     - Adds a user menu dropdown to an element
    * - **gl-edit-bar**
      - Adds an edit bar
    * - **gl-content**
