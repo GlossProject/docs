@@ -9,6 +9,7 @@
 Installation
 =========================================
 
-Placeholder for the installation instructions
+Download the latest gloss release from here: https://github.com/GlossProject/gloss.theme/releases
+Look for the latest gloss.theme zip file and download it.
 
-Installation goes here
+Upload the zip file to your Gloss ready site and point at your Gloss ready html layout.
