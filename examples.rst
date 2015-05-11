@@ -11,7 +11,7 @@ Examples
 
 Real world examples of using Gloss classes to dynamically assign content to a static HTML layout.
 
-Basic Content Assignment Examples
+Content Assignment Examples
 ''''''''''''''''''''''''''''''''''''
 These examples showcase some of the most common implementations of Gloss
 
@@ -30,12 +30,12 @@ Adding breadcrumbs
 Adding a user menu
 ---------------------
 
-Content Dropping Examples
+Content Drop Examples
 ''''''''''''''''''''''''''''
 Gloss provides drop classes which make it possible to remove/hide aspects of your layout that you don't want to be shown.
 These can be removed everywhere, without exception, using the 'gl-drop' class or more selectively uing things like 'gl-front-drop'
 
-Advanced Examples
+Other Examples
 ''''''''''''''''''
 
 Activating custom grids
