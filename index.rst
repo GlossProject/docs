@@ -49,11 +49,11 @@ The general day to day workflow roughly looks like this:
 ````````````````````````````````
 
 Start with an html layout, we'll assume that you spent time on each pixel and css rule to handcraft the most
-beautiful, preferably responsive, layout. Or you use a tool that produces well structured html code (preferably responsive).
+beautiful, well-formed, and preferably responsive, layout.
 
 .. image:: gloss-site-before-gloss.png
 
-To your code you add the special Gloss class (we call them gl classes).
+To your html layout you then add special Gloss classes (specifically these are CSS classes prefixed with gl-).
 
 .. image:: gloss-site-with-gloss-classes.png
 
