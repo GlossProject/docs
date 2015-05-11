@@ -9,4 +9,18 @@
 Tutorial
 =========================================
 
-Place holder for the tutorial
+This tutorial is a walk-through, from start to finish, of the Gloss web-design process.
+We will start with a ready made theme and a site prepopulated with content. To this we will step by step add our
+Gloss classes until our site has been fully transformed to look like the HTML layout.
+
+Adding the Gloss core classes
+--------------------------------
+
+Adding drop classes
+------------------------
+
+Adding site structure classes
+------------------------------
+
+Making use of button and list classes
+---------------------------------------
