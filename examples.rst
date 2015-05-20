@@ -6,14 +6,14 @@
 .. image:: gloss-logo.png
 
 
-Examples
+Howtos
 =========================================
 
-Real world examples of using Gloss classes to dynamically assign content to a static HTML layout.
+These are real world examples of using Gloss classes to solve real design/layout problems.
 
 Content Assignment Examples
 ''''''''''''''''''''''''''''''''''''
-These examples showcase some of the most common implementations of Gloss
+These examples showcase some of the most common tasks done with Gloss
 
 Adding a logo link and navigation menu
 ------------------------------------------
