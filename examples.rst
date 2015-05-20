@@ -17,7 +17,19 @@ These examples showcase some of the most common tasks done with Gloss
 
 Adding a logo link and navigation menu
 ------------------------------------------
+If your design has a logo surrounded by an anchor tag and want to magically put the actual site link::
 
+    <a href=""><img src="pathtocoollogo.png" /></a>
+
+Then use the `gl-logo` class like this::
+
+   <a class="gl-logo" href=""><img src="pathtocoollogo.png" /></a>
+
+You Gloss powered site will inject the correct home url into the href::
+
+   <a class="gl-logo" href="http://home.example.com"><img src="pathtocoollogo.png" /></a>
+
+  
 Assigning a content area
 ---------------------------
 
