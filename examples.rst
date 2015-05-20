@@ -25,13 +25,30 @@ Then use the `gl-logo` class like this::
 
    <a class="gl-logo" href=""><img src="pathtocoollogo.png" /></a>
 
-You Gloss powered site will inject the correct home url into the href::
+Gloss will inject the correct home url into the href::
 
    <a class="gl-logo" href="http://home.example.com"><img src="pathtocoollogo.png" /></a>
 
   
 Assigning a content area
 ---------------------------
+It is common to have a main area where your most important content goes.
+In this example we'll assume that that area has the id "main".
+::
+
+    <div id="main"> <!-- this is where main content goes --> </div>
+
+Use the `gl-content` class like this::
+
+    <div id="main" class="gl-content"> <!-- this is where main content goes --> </div>
+
+Gloss will replace the content of 'main' with the content from your site::
+
+    <div id="main" class="gl-content"> 
+    content from my site
+    <!-- this is where main content goes -->
+    </div>
+
 
 Adding the site edit-bar
 ---------------------------
