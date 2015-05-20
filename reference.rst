@@ -91,9 +91,9 @@ Control dynamic site layout using the layout classes. It is for achieving layout
      - Description
    * - **gl-one-column-layout**
      - assign a content area that will (only be visible when there are no columns.)
-   * - **gl-two-column-layout** gl-right-column
+   * - **gl-two-column-layout** gl-right-sidebar
      - right column based layout, achieved by combining these two classes in a two column grid
-   * - **gl-two-column-layout** gl-left-column
+   * - **gl-two-column-layout** gl-left-sidebar
      - left column based layout, achieved by combining these two classes in a two column grid
    * - **gl-three-column-layout**
      - a layout containing a left and right column
