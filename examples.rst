@@ -1,4 +1,4 @@
-.. Gloss Project documentation master file, created by
+.. Gloss Project documentation master file, originally created by
    sphinx-quickstart on Tue Nov 11 20:07:01 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -9,14 +9,16 @@
 Howtos
 =========================================
 
-These are real world examples of using Gloss classes to solve real design/layout problems.
+This collection of howtos aims to provide examples of using Gloss classes to solve real problems.
 
-Content Assignment Examples
+Content Assignment
 ''''''''''''''''''''''''''''''''''''
+
 These examples showcase some of the most common tasks done with Gloss
 
 Adding a logo link and navigation menu
 ------------------------------------------
+
 If your design has a logo surrounded by an anchor tag and want to magically put the actual site link::
 
     <a href=""><img src="pathtocoollogo.png" /></a>
@@ -30,8 +32,9 @@ Gloss will inject the correct home url into the href::
    <a class="gl-logo" href="http://home.example.com"><img src="pathtocoollogo.png" /></a>
 
   
-Assigning a content area
----------------------------
+Assigning a main content area
+--------------------------------
+
 It is common to have a main area where your most important content goes.
 In this example we'll assume that that area has the id "main".
 ::
@@ -53,17 +56,97 @@ Gloss will replace the content of 'main' with the content from your site::
 Adding the site edit-bar
 ---------------------------
 
+The site edit-bar is usually available to site editors so that they can
+quickly edit an article or other kind of content in context.
+In this example we'll assign an edit bar to the part of the site with the id "main".
+::
+
+    <div id="main"> <!-- this is where main content goes --> </div>
+
+Use the `gl-edit-bar` class like this::
+
+    <div id="main" class="gl-edit-bar gl-content"> <!-- this is where main content goes --> </div>
+
+Gloss will add the edit-bar to the beginning of the 'main' content for your site::
+
+    <div id="main" class="gl-content gl-edit-bar">
+    <edit-bar> <!-- the editbar ends up here --></edit-bar>
+    content from my site
+    <!-- this is where main content goes -->
+    </div>
+    
 Adding breadcrumbs
 -------------------------
 
+The breadcrumbs are used to help a visitor know where they are within a website.
+In this example we'll use a standalone div with an id of 'my-breadcrumbs' and assign breadcrumbs to
+that div.
+::
+
+    <div id="my-breadcrumbs"> <!-- this is where breadcrumbs will go --> </div>
+
+Use the `gl-breadcrumbs` class like this::
+
+    <div id="my-breadcrumbs" class="gl-breadcrumbs"> <!-- this is where breadcrumbs will go --> </div>
+
+Gloss will add the edit-bar to the beginning of the 'main' content for your site::
+
+    <div id="my-breadcrumbs" class="gl-breadcrumbs">
+    <breadcrumbs> <!-- the breadcrumbs end up here --></breadcrumbs>
+    content from my site
+    <!-- this is where breadcrumbs will go -->
+    </div>
+    
+    
 Adding a user menu
 ---------------------
 
-Content Drop Examples
+The user menu provides quick access to a collection of personal and site configuration settings a visitor.
+In this example we'll see how the user-menu can be quickly added to any div.
+::
+
+    <div id="my-menu"> <!-- this is where our menu will go --> </div>
+
+Use the `gl-user-menu` class like this::
+
+    <div id="my-menu" class="gl-user-menu"> <!-- this is where our menu will go --> </div>
+
+Gloss will add the user-menu to the beginning of the div::
+
+    <div id="my-menu" class="gl-user-menu">
+    <user-menu> <!-- the breadcrumbs end up here --></user-menu>
+    <!-- this is where our menu will go -->
+    </div>
+    
+Layout Dropping
 ''''''''''''''''''''''''''''
 Gloss provides drop classes which make it possible to remove/hide aspects of your layout that you don't want to be shown.
-These can be removed everywhere, without exception, using the 'gl-drop' class or more selectively uing things like 'gl-front-drop'
+We call this procedure `content dropping`. Layout can be removed everywhere, without exception, using the `gl-drop` class
+or conditionally using classes like `gl-front-drop` and `gl-inner-drop`.
 
+Dropping a element
+---------------------
+
+The simplest example of layout dropping is removing something from everywhere on the site.
+In this example we'll see how to use the `gl-drop` class to remove an unwanted element from our layout.
+::
+
+    <section> This is coolness
+    <div id="annoying-item"> <!-- we want this to disappear --> </div>
+   </section>
+   
+Use the `gl-drop` class like this::
+  
+    <section> This is coolness
+    <div id="annoying-item" class="gl-drop"> <!-- we want this to disappear --> </div>
+   </section>
+   
+Gloss will ensure that it doesn't show up in our layout::
+
+   <section> This is coolness
+    
+   </section>
+    
 Other Examples
 ''''''''''''''''''
 
