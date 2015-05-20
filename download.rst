@@ -9,8 +9,8 @@
 Download
 =========================================
 
-The latest release is 0.5.6. Download the latest version from here:
-https://github.com/GlossProject/gloss.theme/releases/download/0.5.6/gloss.theme-0.5.6.zip
+The latest release is 0.6.0. Download the latest version from here:
+https://github.com/GlossProject/gloss.theme/releases/download/0.6.0/gloss.theme-0.6.0.zip
 (currently only Plone compatible)
 
 To see other releases visit:
