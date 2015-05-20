@@ -227,10 +227,11 @@ Activating custom grids
 
 Adding Custom CSS 
 ------------------------
-Some times there is a need to override styles in place. It is always recommended that this be done within your HTML layout
-however there are sometimes mitigating circumstances that prevent this. When faced with the need to quickly add CSS
-you can make use of Gloss's `custom-css.xml` file.
 
+If you need to add style related customizations make use of Gloss's `custom-css.xml` file.
+Styles in `custom-css.xml` are given priority over styles provided by either the layout (theme)
+or the source content.
 
+To use it, go to the theming-controlpanel and select `modify theme`. Then look for the `custom-css.xml` file.
 
 
