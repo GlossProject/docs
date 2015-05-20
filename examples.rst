@@ -121,7 +121,7 @@ Gloss will add the user-menu to the beginning of the div::
 Layout Dropping
 ''''''''''''''''''''''''''''
 Gloss provides drop classes which make it possible to remove/hide aspects of your layout that you don't want to be shown.
-We call this procedure `content dropping`. Layout can be removed everywhere, without exception, using the `gl-drop` class
+We call this procedure `layout dropping`. Layout can be removed everywhere, without exception, using the `gl-drop` class
 or conditionally using classes like `gl-front-drop` and `gl-inner-drop`.
 
 Dropping a element
