@@ -184,9 +184,44 @@ Use the `gl-inner-drop` class like this::
    
 Gloss will ensure that the element will be removed from all inner pages
 
-Other Examples
-''''''''''''''''''
+Column based layouts
+'''''''''''''''''''''''''
 
+Adding markup to your layout to support column based layouts
+-----------------------------------------------------------------
+
+The underlying system dynamically supports two and three column layouts. Adding the following markup to your
+layout will allow Gloss to tap into your own customizations.
+
+.. note:: The `gl-left-sidebar` and `gl-right-sidebar` modifiers were introduced in version 0.6x of Gloss.
+The older `gl-left-column` and `gl-right-column` can still be used but should be considered deprecated.
+
+Two Columns (with left sidebar)
+
+.. list-table::
+   :widths: 25 75 
+   :header-rows: 1
+
+   * - I'm a left side bar
+     - This is an example of a gl-two-column-layout gl-left-sidebar
+     
+.. list-table::
+   :widths: 75 25 
+   :header-rows: 1
+
+   * - This is an example of a gl-two-column-layout gl-right-sidebar
+     - I'm a right side bar
+     
+.. list-table::
+   :widths: 25 50 25 
+   :header-rows: 1
+
+   * - I'm a left side bar
+     - This is an example of a gl-three-column-layout
+     - I'm a right side bar
+     
+     
+     
 Activating custom grids
 ---------------------------
 
