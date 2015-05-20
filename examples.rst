@@ -184,6 +184,19 @@ Use the `gl-inner-drop` class like this::
    
 Gloss will ensure that the element will be removed from all inner pages
 
+Dropping based on user role
+------------------------------
+
+The examples below illustrate the `gl-not-authenticated-drop` and `gl-not-manager-drop` classes.
+They allow dropping based on absence of a role (in the case the authenticated and manager roles).
+
+   <aside class="gl-not-authenticated-drop">
+      This will not be visible to anonymous users
+   </aside>  
+   <aside class="gl-not-manager-drop">
+      I will only be shown to a manager
+   </aside>
+
 Column based layouts
 '''''''''''''''''''''''''
 
