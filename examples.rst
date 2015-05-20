@@ -124,8 +124,8 @@ Gloss provides drop classes which make it possible to remove/hide aspects of you
 We call this procedure `layout dropping`. Layout can be removed everywhere, without exception, using the `gl-drop` class
 or conditionally using classes like `gl-front-drop` and `gl-inner-drop`.
 
-Dropping a element
----------------------
+Dropping elements
+---------------------------
 
 The simplest example of layout dropping is removing something from everywhere on the site.
 In this example we'll see how to use the `gl-drop` class to remove an unwanted element from our layout.
@@ -146,7 +146,43 @@ Gloss will ensure that it doesn't show up in our layout::
    <section> This is coolness
     
    </section>
-    
+
+Dropping from the front page only 
+---------------------------------------
+
+.. note :: Gloss will only perform a front-drop on pages that are named `front-page`
+
+To remove an element only from the front page we use the `gl-front-drop` class.
+::
+
+    <section> I am only meant to show up on inner pages
+   </section>
+   
+Use the `gl-front-drop` class like this::
+  
+    <section class="gl-front-drop"> I am only meant to show up on inner pages
+   </section>
+   
+Gloss will ensure that the element will be removed from the front page
+
+Dropping from inner pages only 
+---------------------------------------
+
+.. note :: Gloss will only perform an inner-drop on pages that are NOT named `front-page`
+
+To remove an element from inner pages we use the `gl-inner-drop` class.
+::
+
+    <section> I am meant to be dropped from inner pages
+   </section>
+   
+Use the `gl-inner-drop` class like this::
+  
+    <section class="gl-inner-drop"> I am meant to be dropped from inner pages
+   </section>
+   
+Gloss will ensure that the element will be removed from all inner pages
+
 Other Examples
 ''''''''''''''''''
 
