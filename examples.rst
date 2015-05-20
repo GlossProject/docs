@@ -89,7 +89,7 @@ Use the `gl-breadcrumbs` class like this::
 
     <div id="my-breadcrumbs" class="gl-breadcrumbs"> <!-- this is where breadcrumbs will go --> </div>
 
-Gloss will add the edit-bar to the beginning of the 'main' content for your site::
+Gloss will add the breadcrumbs to the beginning of the 'main' content for your site::
 
     <div id="my-breadcrumbs" class="gl-breadcrumbs">
     <breadcrumbs> <!-- the breadcrumbs end up here --></breadcrumbs>
@@ -120,7 +120,8 @@ Gloss will add the user-menu to the beginning of the div::
     
 Layout Dropping
 ''''''''''''''''''''''''''''
-Gloss provides drop classes which make it possible to remove/hide aspects of your layout that you don't want to be shown.
+
+Gloss provides `drop` classes which make it possible to remove parts of your layout as needed.
 We call this procedure `layout dropping`. Layout can be removed everywhere, without exception, using the `gl-drop` class
 or conditionally using classes like `gl-front-drop` and `gl-inner-drop`.
 
