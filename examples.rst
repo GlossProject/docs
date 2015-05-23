@@ -11,7 +11,7 @@ Howtos
 
 This collection of howtos aims to provide examples of using Gloss classes to solve real problems.
 
-Content Assignment
+Dynamic Content - Using Content Assignment
 ''''''''''''''''''''''''''''''''''''
 
 These examples showcase some of the most common tasks done with Gloss
@@ -118,8 +118,8 @@ Gloss will add the user-menu to the beginning of the div::
     <!-- this is where our menu will go -->
     </div>
     
-Layout Dropping
-''''''''''''''''''''''''''''
+Layout Tweaks Part 1  - Gloss Drop Classes
+'''''''''''''''''''''''''''''''''''''''''''''''
 
 Gloss provides `drop` classes which make it possible to remove parts of your layout as needed.
 We call this procedure `layout dropping`. Layout can be removed everywhere, without exception, using the `gl-drop` class
@@ -197,8 +197,8 @@ They allow dropping based on absence of a role (in the case the authenticated an
       I will only be shown to a manager
    </aside>
 
-Column based layouts
-'''''''''''''''''''''''''
+Layout Tweaks Part 2 - Dynamic Column based layouts
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Adding markup to your layout to support column based layouts
 -----------------------------------------------------------------
@@ -237,6 +237,9 @@ Two Columns (with left sidebar)
      
 Activating custom grids
 ---------------------------
+The Gloss Project allows you to "magically" transform your site to support specific grid systems.
+Currently we support the webflow grid system. This is enabled by To going to the theming-controlpanel
+then selecting `modify theme` and in the `rules.xml` file, uncommenting the `grid-webflow.xml` reference.
 
 Adding Custom CSS 
 ------------------------
