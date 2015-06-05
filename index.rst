@@ -18,10 +18,6 @@ If you're interested in building complex (and not so complex) content driven sit
 good fit. If you have an opinionated team that think they've figured it all out and everything is working for you already, then
 there's nothing to see here, just move on.
 
-Show me the Docs
-------------------
-If you want to dive straight into the documentation follow the link below:
-
 .. toctree::
    :hidden::
    
