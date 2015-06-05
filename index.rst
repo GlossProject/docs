@@ -25,6 +25,7 @@ If you want to dive straight into the documentation follow the link below:
 .. toctree::
    :hidden::
    
+   nutshell
    documentation
    download
 
