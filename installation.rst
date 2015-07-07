@@ -9,7 +9,15 @@
 Installation
 =========================================
 
+Zip Download
+----------------
+
 Download the latest gloss release from here: https://github.com/GlossProject/gloss.theme/releases
 Look for the latest gloss.theme zip file and download it.
 
 Upload the zip file to your Gloss ready site and point at your Gloss ready html layout.
+
+Buildout
+-------------
+
+Gloss can be installed on the Plone content management system by adding the `gloss.theme` package to your buildout.
