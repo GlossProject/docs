@@ -20,6 +20,7 @@ Contents:
    tutorial
    examples
    reference
+   components
 
 
 * :ref:`search`
