@@ -49,6 +49,10 @@ transform your HTML
      - Assigns ONLY the content description
    * - **gl-content-title**
      - Assigns ONLY the content title
+   * - **gl-first-column**
+     - Assigns the first column to an element in your theme
+   * - **gl-second-column**
+     - Assigns the second column to an element in your theme
    * - **gl-footer**
      - Assigns the footer
    * - **gl-below-content**
