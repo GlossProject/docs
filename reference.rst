@@ -37,6 +37,8 @@ transform your HTML
      - Adds breadcrumbs to an element
    * - **gl-user-menu**
      - Adds a user menu dropdown to an element
+   * - **gl-status**
+     - Defines the location where portal status messages are shown
    * - **gl-edit-bar**
      - Adds an edit bar
    * - **gl-content**
